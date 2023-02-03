@@ -1,0 +1,195 @@
+html {
+  width: 100vw;
+  height: 100vh;
+  color: rgb(214, 209, 203);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+
+  background-image: url("../public/assets/StarWarsDarth.png");
+  background-size: cover;
+  font-size: 20px;
+  
+ color: white;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.list {
+  color: rgb(255, 255, 255);
+  list-style: none;
+}
+
+.names {
+  display: flex;
+  flex-direction: row;
+  padding: 1%;
+}
+
+.header-img {
+  display: flex;
+  width: 100%;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+button {
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  opacity: 0.8;
+}
+
+.info-btns {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.input-search {
+  display: flex;
+  justify-content: center;
+}
+
+.input-search-field {
+  margin: 25px;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.information {
+background-color: rgb(0, 0, 0);
+display: inline-flex;
+width: 50%;
+justify-content: center;
+opacity: 0.7;
+}
+
+.film-information {
+  background-color: rgb(0, 0, 0);
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  opacity: 0.7;
+  }
+
+.bad-search {
+  margin: 10px 20% 10px 20%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(196, 29, 143);
+  opacity: 0.7;
+}
+
+.next-btn {
+  display: flex;
+  justify-content: center;
+}
+
+.characterss-btn {
+  background: url('../public/assets/characters-btn.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  width: 230px;
+  height: 75px;
+}
+
+.characterss-btn:hover {
+  opacity: 0.8;
+}
+
+.planetss-btn {
+  background: url('../public/assets/planets-btn.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  width: 230px;
+  height: 75px;
+}
+
+.planetss-btn:hover {
+  opacity: 0.8;
+}
+
+.moviess-btn {
+  background: url('../public/assets/films-btn.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  width: 230px;
+  height: 75px;
+}
+
+.moviess-btn:hover {
+  opacity: 0.8;
+}
+
+.speciess-btn {
+  background: url('../public/assets/species-btn.png');
+  background-position:center;
+  object-fit: fill;
+  width: 230px;
+  height: 75px;
+}
+
+.speciess-btn:hover {
+  opacity: 0.8;
+}
+
+.vehicless-btn {
+  background: url('../public/assets/vehicles-btn.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  width: 230px;
+  height: 75px;
+}
+
+.vehicless-btn:hover {
+  opacity: 0.8;
+  
+}
+
+.starshipss-btn {
+  background: url('../public/assets/starships-btn.png');
+  background-position:center;
+  background-repeat:no-repeat;
+  width: 230px;
+  height: 75px;
+}
+
+.starshipss-btn:hover {
+  opacity: 0.8;
+}
+
+.character-div {
+  display: flex;
+  margin-top: 5%;
+}
+
+.character-info {
+  position: relative;
+  margin-left: 15%;
+}
